@@ -11,15 +11,14 @@ Kelas   :   TI.22.C.9
 
 
 * Download Git terlebih dahulu, dengan link berikut ini : [Click Here](https://git-scm.com/)
-![Gambar Git SCM]![git-scm](https://user-images.githubusercontent.com/123864099/215322921-21ad3df0-8121-49d7-a60f-7f207d279412.png)
+![git-scm](https://user-images.githubusercontent.com/123864099/215322921-21ad3df0-8121-49d7-a60f-7f207d279412.png)
 
-)
 
 * Setelah installasi selesai, buka *software* **GitBash** pada menu di Windows, dan lakukan pengecekan versi, dengan mengetik syntax berikut :
     > git --version
 
 
-![Git Pict Version Check]![git-version](https://user-images.githubusercontent.com/123864099/215322937-245f57bb-5c6a-454e-b570-2e57a972e3ab.PNG)
+![git-version](https://user-images.githubusercontent.com/123864099/215322937-245f57bb-5c6a-454e-b570-2e57a972e3ab.PNG)
 
 
 
@@ -27,7 +26,7 @@ Kelas   :   TI.22.C.9
 > git config --global user.name "Masukkan Nama Anda disini"
 > git config --global user.email "Masukkan Email Anda disini"
 
-![Picture - Add User]![git-addname](https://user-images.githubusercontent.com/123864099/215322978-7f10e2f5-36f8-4ff9-92fa-0d799c324b79.PNG)
+![git-addname](https://user-images.githubusercontent.com/123864099/215322978-7f10e2f5-36f8-4ff9-92fa-0d799c324b79.PNG)
 
 
 
@@ -35,13 +34,14 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 > git config --global user.name
 > git config --global user.email
 
-![Picture - Cek User]!![git-cekname](https://user-images.githubusercontent.com/123864099/215323004-a3402e7b-4c30-41cc-b744-b197e02f080e.PNG)
+![git-cekname](https://user-images.githubusercontent.com/123864099/215323004-a3402e7b-4c30-41cc-b744-b197e02f080e.PNG)
 
 
 * Buat akun di [GitHub](https://github.com) , seperti contoh dibawah ini. Dan lakukan *verifikasi* akun melalui email yang sudah terdaftar. 
-![Picture Github SignUp]![github-signup](https://user-images.githubusercontent.com/123864099/215323022-423c4b2a-63f3-4e76-b2de-a809f310ca1f.PNG)
+![github-signup](https://user-images.githubusercontent.com/123864099/215323022-423c4b2a-63f3-4e76-b2de-a809f310ca1f.PNG)
 
 * Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gambar dibawah ini.
+* 
 **Penjelasan** : 
 > * Repository Name : (Silahkan isi nama repository yang diinginkan, seperti contoh saya ingin membuat repository *LatihanVCS*)
 > * Description : (Isi dengan deskripsi atau penjelasan tentang repository Anda)
@@ -57,22 +57,25 @@ Kemudian tekan tombol **Create Repository** untuk menyimpan
 
 
 * Jika repository sudah dibuat maka akan muncul tampilan seperti dibawah ini :
-![github-code](https://user-images.githubusercontent.com/123864099/215322876-4a5cc0d1-7da9-4c09-af6d-2fe845a6bfc9.PNG)
+![github-view](https://user-images.githubusercontent.com/123864099/215324172-2120fc3e-899a-41fe-9a4a-389dab21d024.PNG)
+
 
 
 
 * Pembuatan akun dan repository pada Github telah selesai, saat ini akan kita lakukan untuk *me-remote* repository Github pada GitBash Lokal. Bagaimana caranya?
 Langkah pertama kita harus menyalin *link URL* git kita di Github, dengan cara tekan tombol **Code** lalu klik *Copy*.
 
-![Picture - Copy Link Github]![github-code](https://user-images.githubusercontent.com/123864099/215323275-a72e1ca6-9925-4272-aced-0d616d751e4f.PNG)
+![github-code](https://user-images.githubusercontent.com/123864099/215323275-a72e1ca6-9925-4272-aced-0d616d751e4f.PNG)
 
 
 * Setelah *Link URL* git kita ter*copy*, Silahkan buka File Explorer pada Windows, kemudian pilih folder dimana kita akan men*download* Repository dari Github ke lokal. Kemudian Klik Kanan, Pilih ***Git Bash Here***.
-![Picture - Git Bash Here]![gitbash-here](https://user-images.githubusercontent.com/123864099/215323285-81b39e70-41f2-4bca-b06f-506e0a9b3b8a.png)
+![gitbash-here](https://user-images.githubusercontent.com/123864099/215323285-81b39e70-41f2-4bca-b06f-506e0a9b3b8a.png)
 
 * *Pop Up* Command Prompt (CMD) akan terbuka. Pada proses ini kita akan melakukan download file repository yang tadi dibuat, dengan mengetikkan *syntax* berikut :
 > git clone [URL]
-Pada contohnya, saya akan memasukkan *git clone https://github.com/AdityaAchya/LatihanVCS.git*
+Pada contohnya, saya akan memasukkan 
+*git clone https://github.com/AdityaAchya/LatihanVCS.git*
+
 ![git-clone](https://user-images.githubusercontent.com/123864099/215323294-771a15a5-d8bb-4505-b6a5-c1c04f1b06d2.PNG)
 
 
