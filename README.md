@@ -74,3 +74,25 @@ Setelah file README.md diedit, silahkan Simpan file tersebut dengan cara **CTRL+
 > git add .
 
 ![Picture - Git Add](pict/git-add.PNG)
+
+* Setelah selesai melakukan *git add .* langkah berikutnya kita akan melakukan **commit*. Fungsi commit adalah untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository. Ketik pada App Git Bash seperti berikut ini :
+> git commit -m "Update README.md"
+
+![Picture - Git Commit](pict/git-commit.PNG)
+
+* Git *commit* telah selesai di lakukan. Untuk saat ini akan melakuka Git Push, *Git Push* berfungsi untuk mengirimkan perubahan file setelah di commit ke remote repository. Silahkan ketik pada App Git Bash seperti berikut :
+> git push
+
+![Picture - Git Push](pict/git-push.PNG)
+
+* Semua proses telah selesai, silahkan kembali ke Web Browser untuk melihat perubahan yang telah di *commit* dan *push* dari remote. 
+
+![Picture - View 2](pict/git-view2.PNG)
+
+
+Hal diatas adalah Cara Langkah-Langkah Penggunaan GIT.
+
+Sekian informasi yang dapat saya bagikan kepada kalian.
+
+## TERIMA KASIH
+### ADITYA ACHYA ANANTA NUR - 312210714 - TI.22.C. - TEKNIK INFORMATIKA - UNIVERSITAS PELITA BANGSA
