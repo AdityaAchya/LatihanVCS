@@ -40,8 +40,7 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 * Buat akun di [GitHub](https://github.com) , seperti contoh dibawah ini. Dan lakukan *verifikasi* akun melalui email yang sudah terdaftar. 
 ![github-signup](https://user-images.githubusercontent.com/123864099/215323022-423c4b2a-63f3-4e76-b2de-a809f310ca1f.PNG)
 
-* Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gambar dibawah ini.
-* 
+* Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gambar dibawah ini. 
 **Penjelasan** : 
 > * Repository Name : (Silahkan isi nama repository yang diinginkan, seperti contoh saya ingin membuat repository *LatihanVCS*)
 > * Description : (Isi dengan deskripsi atau penjelasan tentang repository Anda)
@@ -108,7 +107,7 @@ Setelah file README.md diedit, silahkan Simpan file tersebut dengan cara **CTRL+
 
 * Semua proses telah selesai, silahkan kembali ke Web Browser untuk melihat perubahan yang telah di *commit* dan *push* dari remote. 
 
-![git-view2](https://user-images.githubusercontent.com/123864099/215323411-4148af81-64b6-4014-99ae-dbf564f7f493.PNG)
+![github-view](https://user-images.githubusercontent.com/123864099/215324622-e25194df-2dd5-4186-bacf-cd7fec10a373.PNG)
 
 
 Hal diatas adalah Cara Langkah-Langkah Penggunaan GIT.
