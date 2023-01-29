@@ -11,33 +11,35 @@ Kelas   :   TI.22.C.9
 
 
 * Download Git terlebih dahulu, dengan link berikut ini : [Click Here](https://git-scm.com/)
-![Gambar Git SCM][Uploading git-scm.png…]()
+![Gambar Git SCM]![git-scm](https://user-images.githubusercontent.com/123864099/215322921-21ad3df0-8121-49d7-a60f-7f207d279412.png)
+
 )
 
 * Setelah installasi selesai, buka *software* **GitBash** pada menu di Windows, dan lakukan pengecekan versi, dengan mengetik syntax berikut :
     > git --version
 
 
-![Git Pict Version Check]![Uploading git-version.PNG…]()
+![Git Pict Version Check]![git-version](https://user-images.githubusercontent.com/123864099/215322937-245f57bb-5c6a-454e-b570-2e57a972e3ab.PNG)
+
 
 
 * Jika muncul tampilan git version, berarti Git sudah berhasil di install dan bisa digunakan. Langkah pertama kita harus mengkonfigurasi user nama dan email di Git, dengan mengetikkan *syntax* berikut :
 > git config --global user.name "Masukkan Nama Anda disini"
 > git config --global user.email "Masukkan Email Anda disini"
 
-![Picture - Add User]![Uploading git-addname.PNG…]()
+![Picture - Add User]![git-addname](https://user-images.githubusercontent.com/123864099/215322978-7f10e2f5-36f8-4ff9-92fa-0d799c324b79.PNG)
+
 
 
 Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikkan perintah berikut :
 > git config --global user.name
 > git config --global user.email
 
-![Picture - Cek User]![Uploading git-cekname.PNG…]()
+![Picture - Cek User]!![git-cekname](https://user-images.githubusercontent.com/123864099/215323004-a3402e7b-4c30-41cc-b744-b197e02f080e.PNG)
 
 
 * Buat akun di [GitHub](https://github.com) , seperti contoh dibawah ini. Dan lakukan *verifikasi* akun melalui email yang sudah terdaftar. 
-![Picture Github SignUp][Uploading github-signup.PNG…]()
-G)
+![Picture Github SignUp]![github-signup](https://user-images.githubusercontent.com/123864099/215323022-423c4b2a-63f3-4e76-b2de-a809f310ca1f.PNG)
 
 * Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gambar dibawah ini.
 **Penjelasan** : 
