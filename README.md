@@ -7,7 +7,7 @@ Nim     :   312210714
 
 Kelas   :   TI.22.C.9
 
-## Langkah-Langkah Penggunaan Git![git-scm]
+## Langkah-Langkah Penggunaan Git
 
 
 * Download Git terlebih dahulu, dengan link berikut ini : [Click Here](https://git-scm.com/)
