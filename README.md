@@ -49,6 +49,8 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 > * Add .gitignore : Merupakan  sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git.
 > * Choose a license : Silahkan centang jika Anda memiliki lisensi pada repository yang akan dibuat
 Kemudian tekan tombol **Create Repository** untuk menyimpan
+
+
 ![github-create-repo](https://user-images.githubusercontent.com/123864099/215323258-d910592c-0e52-4d79-9d60-3fe80a51e537.PNG)
 
 
