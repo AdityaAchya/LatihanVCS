@@ -50,55 +50,62 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 > * Add .gitignore : Merupakan  sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git.
 > * Choose a license : Silahkan centang jika Anda memiliki lisensi pada repository yang akan dibuat
 Kemudian tekan tombol **Create Repository** untuk menyimpan
-![Picture Create Github Repository]![Uploading github-create-repo.PNG…]()
+![github-create-repo](https://user-images.githubusercontent.com/123864099/215323258-d910592c-0e52-4d79-9d60-3fe80a51e537.PNG)
+
+
+
 
 
 * Jika repository sudah dibuat maka akan muncul tampilan seperti dibawah ini :
-![Picture - Github View 1]!![github-code](https://user-images.githubusercontent.com/123864099/215322876-4a5cc0d1-7da9-4c09-af6d-2fe845a6bfc9.PNG)
+![github-code](https://user-images.githubusercontent.com/123864099/215322876-4a5cc0d1-7da9-4c09-af6d-2fe845a6bfc9.PNG)
 
 
 
 * Pembuatan akun dan repository pada Github telah selesai, saat ini akan kita lakukan untuk *me-remote* repository Github pada GitBash Lokal. Bagaimana caranya?
 Langkah pertama kita harus menyalin *link URL* git kita di Github, dengan cara tekan tombol **Code** lalu klik *Copy*.
 
-![Picture - Copy Link Github](pict/github-code.PNG)
+![Picture - Copy Link Github]![github-code](https://user-images.githubusercontent.com/123864099/215323275-a72e1ca6-9925-4272-aced-0d616d751e4f.PNG)
+
 
 * Setelah *Link URL* git kita ter*copy*, Silahkan buka File Explorer pada Windows, kemudian pilih folder dimana kita akan men*download* Repository dari Github ke lokal. Kemudian Klik Kanan, Pilih ***Git Bash Here***.
-![Picture - Git Bash Here](pict/gitbash-here.png)
+![Picture - Git Bash Here]![gitbash-here](https://user-images.githubusercontent.com/123864099/215323285-81b39e70-41f2-4bca-b06f-506e0a9b3b8a.png)
 
 * *Pop Up* Command Prompt (CMD) akan terbuka. Pada proses ini kita akan melakukan download file repository yang tadi dibuat, dengan mengetikkan *syntax* berikut :
 > git clone [URL]
 Pada contohnya, saya akan memasukkan *git clone https://github.com/AdityaAchya/LatihanVCS.git*
-![Picture Git Clone](pict/git-clone.PNG)
+![git-clone](https://user-images.githubusercontent.com/123864099/215323294-771a15a5-d8bb-4505-b6a5-c1c04f1b06d2.PNG)
+
 
 * Setelah proses cloning selesai, pada saat ini kita masih pada folder awal (master), kita harus masuk kedalam folder yang telah dicloning tadi yaitu *LatihanVCS* dengan mengetikkan *syntax* berikut :
 > cd LatihanVCS/
 
-![Picture Pilih Direktori](pict/cd-folder.PNG)
+![cd-folder](https://user-images.githubusercontent.com/123864099/215323307-6e510230-44c8-433a-96c1-89b07e23a1ed.PNG)
 
 * Saat ini kita sudah masuk kedalam folder *LatihanVCS*, Silahkan edit file **README.md** yang ada di File Explorer. Bisa menggunakan Text Editor (*Sublime Text, Notepad, Notepad++, Visual Studio Code*). Edit sesuai dengan keinginan. Aturan file .md (Markdown) bisa dilihat di Link berikut ini : [Click Here](https://guides.github.com/features/mastering-markdown/)
-![Picture - README.md Edited](pict/readme-edit.PNG)
+![readme-edit](https://user-images.githubusercontent.com/123864099/215323319-a19b0ceb-636f-408a-8764-a5f1010ab93c.PNG)
 
 Setelah file README.md diedit, silahkan Simpan file tersebut dengan cara **CTRL+S** atau **File -> Save**
 
 * Langkah selanjutnya setelah file disimpan, kita kembali pada App Git Bash (CMD). Ketik pada Git Bash seperti berikut ini :
 > git add .
 
-![Picture - Git Add](pict/git-add.PNG)
+![pictgit-add](https://user-images.githubusercontent.com/123864099/215323345-fb831def-fbca-489d-8921-d73843fd5d29.PNG)
+
 
 * Setelah selesai melakukan *git add .* langkah berikutnya kita akan melakukan **commit*. Fungsi commit adalah untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository. Ketik pada App Git Bash seperti berikut ini :
 > git commit -m "Update README.md"
 
-![Picture - Git Commit](pict/git-commit.PNG)
+![git-commit](https://user-images.githubusercontent.com/123864099/215323368-30ce51f8-142e-41b5-8b2b-980799661d03.PNG)
 
 * Git *commit* telah selesai di lakukan. Untuk saat ini akan melakuka Git Push, *Git Push* berfungsi untuk mengirimkan perubahan file setelah di commit ke remote repository. Silahkan ketik pada App Git Bash seperti berikut :
 > git push
 
-![Picture - Git Push](pict/git-push.PNG)
+![git-push](https://user-images.githubusercontent.com/123864099/215323397-5d1aa7d3-c03b-4bef-af64-bcde84714532.PNG)
+
 
 * Semua proses telah selesai, silahkan kembali ke Web Browser untuk melihat perubahan yang telah di *commit* dan *push* dari remote. 
 
-![Picture - View 2](pict/git-view2.PNG)
+![git-view2](https://user-images.githubusercontent.com/123864099/215323411-4148af81-64b6-4014-99ae-dbf564f7f493.PNG)
 
 
 Hal diatas adalah Cara Langkah-Langkah Penggunaan GIT.
