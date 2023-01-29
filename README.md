@@ -7,31 +7,37 @@ Nim     :   312210714
 
 Kelas   :   TI.22.C.9
 
-## Langkah-Langkah Penggunaan Git
+## Langkah-Langkah Penggunaan Git![git-scm]
+
 
 * Download Git terlebih dahulu, dengan link berikut ini : [Click Here](https://git-scm.com/)
-![Gambar Git SCM](pict/git-scm.PNG)
+![Gambar Git SCM][Uploading git-scm.png…]()
+)
 
 * Setelah installasi selesai, buka *software* **GitBash** pada menu di Windows, dan lakukan pengecekan versi, dengan mengetik syntax berikut :
     > git --version
 
 
-![Git Pict Version Check](pict/git-version.PNG)
+![Git Pict Version Check]![Uploading git-version.PNG…]()
+
 
 * Jika muncul tampilan git version, berarti Git sudah berhasil di install dan bisa digunakan. Langkah pertama kita harus mengkonfigurasi user nama dan email di Git, dengan mengetikkan *syntax* berikut :
 > git config --global user.name "Masukkan Nama Anda disini"
 > git config --global user.email "Masukkan Email Anda disini"
 
-![Picture - Add User](pict/git-addname.PNG)
+![Picture - Add User]![Uploading git-addname.PNG…]()
+
 
 Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikkan perintah berikut :
 > git config --global user.name
 > git config --global user.email
 
-![Picture - Cek User](pict/git-cekname.PNG)
+![Picture - Cek User]![Uploading git-cekname.PNG…]()
+
 
 * Buat akun di [GitHub](https://github.com) , seperti contoh dibawah ini. Dan lakukan *verifikasi* akun melalui email yang sudah terdaftar. 
-![Picture Github SignUp](pict/github-signup.PNG)
+![Picture Github SignUp][Uploading github-signup.PNG…]()
+G)
 
 * Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gambar dibawah ini.
 **Penjelasan** : 
@@ -42,10 +48,13 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 > * Add .gitignore : Merupakan  sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git.
 > * Choose a license : Silahkan centang jika Anda memiliki lisensi pada repository yang akan dibuat
 Kemudian tekan tombol **Create Repository** untuk menyimpan
-![Picture Create Github Repository](pict/github-create-repo.PNG)
+![Picture Create Github Repository]![Uploading github-create-repo.PNG…]()
+
 
 * Jika repository sudah dibuat maka akan muncul tampilan seperti dibawah ini :
-![Picture - Github View 1](pict/github-view.PNG)
+![Picture - Github View 1]!![github-code](https://user-images.githubusercontent.com/123864099/215322876-4a5cc0d1-7da9-4c09-af6d-2fe845a6bfc9.PNG)
+
+
 
 * Pembuatan akun dan repository pada Github telah selesai, saat ini akan kita lakukan untuk *me-remote* repository Github pada GitBash Lokal. Bagaimana caranya?
 Langkah pertama kita harus menyalin *link URL* git kita di Github, dengan cara tekan tombol **Code** lalu klik *Copy*.
